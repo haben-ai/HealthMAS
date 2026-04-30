@@ -1,4 +1,4 @@
-# 🏥 Intelligent Healthcare Appointment Scheduling System
+# TASK 2 DEMO FOR  Intelligent Healthcare Appointment Scheduling System
 
 ## 📌 Overview
 This project implements a **Decentralized Multi-Agent System (MAS)** using **Java** and the **JADE framework** to optimize healthcare appointment scheduling.
@@ -13,7 +13,7 @@ The system replaces the traditional *first-come, first-served* model with a **dy
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Improve patient prioritization based on medical urgency  
 - Reduce waiting times  
 - Enable autonomous decision-making using agents  
@@ -21,7 +21,7 @@ The system replaces the traditional *first-come, first-served* model with a **dy
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 ### 🔹 Agents and Their Roles
 
@@ -30,7 +30,7 @@ The system replaces the traditional *first-come, first-served* model with a **dy
 - Sends appointment requests using `REQUEST` messages
 - Provides symptoms and availability
 
-#### 🧠 Triage Agent
+####  Triage Agent
 - Analyzes patient symptoms
 - Determines urgency level:
   - `CRITICAL`
@@ -38,7 +38,7 @@ The system replaces the traditional *first-come, first-served* model with a **dy
 - Sends classification via `INFORM` messages
 - Example: Detects keywords like *"chest pain"* for emergencies
 
-#### 📅 Scheduler Agent (Negotiator)
+####  Scheduler Agent (Negotiator)
 - Manages doctor schedules
 - Handles appointment conflicts
 - Uses **Contract Net Protocol (`PROPOSE`)** for negotiation
@@ -46,4 +46,3 @@ The system replaces the traditional *first-come, first-served* model with a **dy
 
 ---
 
-## 🔄 Agent Interaction Flow
